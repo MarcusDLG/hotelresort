@@ -4,7 +4,7 @@ import Home from "./pages/Home";
 import Rooms from "./pages/Rooms";
 import SingleRoom from "./pages/SingleRoom";
 import Error from "./pages/Error";
-import Navbar from "./components/navbar";
+import Navbar from "./components/Navbar";
 import { Route, Link, Switch } from "react-router-dom";
 
 function App() {

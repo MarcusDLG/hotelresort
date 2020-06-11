@@ -25,7 +25,9 @@ class Navbar extends Component {
                 <FaAlignRight className="nav-icon" />
               </button>
             </section>
-            <ul className="nav-links show-nav">
+            <ul
+              className={this.state.isOpen ? "nav-links show-nav" : "nav-links"}
+            >
               <li>
                 <Link to="/">Home</Link>
               </li>
