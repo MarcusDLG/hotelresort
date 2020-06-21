@@ -5,7 +5,7 @@ import Banner from "../components/Banner";
 import Services from "../components/Services";
 import FeaturedRooms from "../components/FeaturedRooms";
 
-const home = () => {
+const Home = () => {
   return (
     <>
       <Hero>
@@ -24,4 +24,4 @@ const home = () => {
   );
 };
 
-export default home;
+export default Home;

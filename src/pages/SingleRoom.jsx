@@ -1,7 +1,52 @@
-import React from "react";
+import React, { Component } from "react";
+import defaultBcg from "../images/room-1.jpeg";
+import Hero from "../components/Hero";
+import Banner from "../components/Banner";
+import { Link } from "react-router-dom";
+import { RoomContext } from "../Context";
 
-const SingleRoom = () => {
-  return <>Hello from single rooms!</>;
-};
+class SingleRoom extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      slug: this.props.match.params.slug,
+      defaultBcg,
+    };
+  }
+  static contextType = RoomContext;
+  render() {
+    const { getRoom } = this.context;
+    const room = getRoom(this.state.slug);
+    if (!room) {
+      return (
+        <div className="error">
+          <h3>no such room exists</h3>
+          <Link to="/rooms" className="btn-primary">
+            Back to Rooms!
+          </Link>
+        </div>
+      );
+    }
+    const {
+      name,
+      description,
+      capacity,
+      size,
+      price,
+      extras,
+      breakfast,
+      pets,
+      images,
+    } = room;
+    return (
+      <div>hello from {room.name}</div>
+      // <Hero hero="roomsHero">
+      //   <Banner title={`${name} room`}>
+      //     <Link to="/rooms" className="btn-primary"></Link>
+      //   </Banner>
+      // </Hero>
+    );
+  }
+}
 
 export default SingleRoom;
