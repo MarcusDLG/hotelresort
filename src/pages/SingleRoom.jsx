@@ -12,7 +12,7 @@ class SingleRoom extends Component {
       slug: this.props.match.params.roomStyle,
       defaultBcg,
     };
-    console.log(props);
+    // console.log(props);
   }
   static contextType = RoomContext;
   render() {
@@ -39,13 +39,13 @@ class SingleRoom extends Component {
       pets,
       images,
     } = room;
+    console.log(room);
     return (
-      <div>hello from {room.name}</div>
-      // <Hero hero="roomsHero">
-      //   <Banner title={`${name} room`}>
-      //     <Link to="/rooms" className="btn-primary"></Link>
-      //   </Banner>
-      // </Hero>
+      <Hero hero="roomsHero">
+        <Banner title={`${name} room`}>
+          <Link to="/rooms" className="btn-primary"></Link>
+        </Banner>
+      </Hero>
     );
   }
 }
