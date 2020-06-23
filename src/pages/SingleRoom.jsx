@@ -9,9 +9,10 @@ class SingleRoom extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      slug: this.props.match.params.slug,
+      slug: this.props.match.params.roomStyle,
       defaultBcg,
     };
+    console.log(props);
   }
   static contextType = RoomContext;
   render() {
