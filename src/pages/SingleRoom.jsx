@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import defaultBcg from "../images/room-1.jpeg";
-import Hero from "../components/Hero";
 import Banner from "../components/Banner";
 import { Link } from "react-router-dom";
 import { RoomContext } from "../Context";
@@ -65,7 +64,7 @@ class SingleRoom extends Component {
             <article className="info">
               <h3>Information:</h3>
               <h6>price: ${price}</h6>
-              <h6>size: {price}SqFt.</h6>
+              <h6>size: {size}SqFt.</h6>
               <h6>
                 Max Capacity:{" "}
                 {capacity > 1 ? `${capacity} people` : `${capacity} person`}

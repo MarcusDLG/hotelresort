@@ -1,7 +1,7 @@
 import React from "react";
 
 const RoomsFilter = () => {
-  return <div></div>;
+  return <div>hello from rooms filter</div>;
 };
 
 export default RoomsFilter;
