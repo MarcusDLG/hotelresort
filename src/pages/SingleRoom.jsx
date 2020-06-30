@@ -9,7 +9,7 @@ class SingleRoom extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      slug: this.props.match.params.roomStyle,
+      slug: this.props.match.params.slug,
       defaultBcg,
     };
   }
