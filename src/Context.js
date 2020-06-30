@@ -41,7 +41,7 @@ class RoomProvider extends Component {
         maxSize,
       });
     } catch (error) {
-      console.log(error);
+      // console.log(error);
     }
   };
 
@@ -74,8 +74,6 @@ class RoomProvider extends Component {
       },
       this.filterRooms
     );
-
-    console.log(name, value);
   };
   filterRooms = () => {
     let {
