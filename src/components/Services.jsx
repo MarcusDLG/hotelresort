@@ -9,25 +9,25 @@ class Services extends Component {
         icon: <FaCocktail />,
         title: "Free cocktails",
         info:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fugit explicabo harum labore, ab aliquam delectus id doloremque assumenda veniam illo et quibusdam fugiat. Tempore, animi! Voluptates ea non totam.",
+          "APPLETON ESTATE JAMAICA RUM An iconic Jamaica product and internationally acclaimed rum brand, is poured at all Sandals Resorts throughout the Caribbean.",
       },
       {
         icon: <FaHiking />,
         title: "Beautiful Trails",
         info:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fugit explicabo harum labore, ab aliquam delectus id doloremque assumenda veniam illo et quibusdam fugiat. Tempore, animi! Voluptates ea non totam.",
+          "Whether you seek adrenaline-pumping activities or more low-key pursuits, every conceivable activity is included in your stay. Play tennis, day or night, on lighted courts or dig your toes in the sand with a competitive game of beach volleyball. Take in a playful game of croquet or bocce ball or enjoy some drinks over billards and darts. It’s all here with top-of-the-line equipment and expert instruction. And best of all, you can do it all...or do absolutely nothing at all.",
       },
       {
         icon: <FaShuttleVan />,
         title: "Quick Ride to the Airport",
         info:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fugit explicabo harum labore, ab aliquam delectus id doloremque assumenda veniam illo et quibusdam fugiat. Tempore, animi! Voluptates ea non totam.",
+          "SuperShuttle, or Blue Van, leads the nation in shared ride airport shuttle service such as SuperShuttle Tampa International (TPA) airport.",
       },
       {
         icon: <FaBeer />,
         title: "Strongest Beer",
         info:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fugit explicabo harum labore, ab aliquam delectus id doloremque assumenda veniam illo et quibusdam fugiat. Tempore, animi! Voluptates ea non totam.",
+          "Strong ale is a type of ale, usually above 5% abv and often higher, between 7% to 11% abv, which spans a number of beer styles, including old ale, barley wine and Burton ale. Strong ales are brewed throughout Europe and beyond, including in England, Belgium and the United States.",
       },
     ],
   };
