@@ -9,13 +9,13 @@ class Services extends Component {
         icon: <FaCocktail />,
         title: "Free cocktails",
         info:
-          "APPLETON ESTATE JAMAICA RUM An iconic Jamaica product and internationally acclaimed rum brand, is poured at all Sandals Resorts throughout the Caribbean.",
+          "APPLETON ESTATE JAMAICA RUM, An iconic Jamaica product and internationally acclaimed rum brand, is poured at all Bubbz Beach Resorts throughout Florida.",
       },
       {
         icon: <FaHiking />,
-        title: "Beautiful Trails",
+        title: "Endless Activities",
         info:
-          "Whether you seek adrenaline-pumping activities or more low-key pursuits, every conceivable activity is included in your stay. Play tennis, day or night, on lighted courts or dig your toes in the sand with a competitive game of beach volleyball. Take in a playful game of croquet or bocce ball or enjoy some drinks over billards and darts. It’s all here with top-of-the-line equipment and expert instruction. And best of all, you can do it all...or do absolutely nothing at all.",
+          "Whether you seek adrenaline-pumping activities or more low-key pursuits, every conceivable activity is included in your stay. Play tennis, day or night, on lighted courts or dig your toes in the sand with a competitive game of beach volleyball. Take in a playful game of croquet or bocce ball or enjoy some drinks over billards and darts. It’s all here with top-of-the-line equipment and expert instruction.",
       },
       {
         icon: <FaShuttleVan />,
